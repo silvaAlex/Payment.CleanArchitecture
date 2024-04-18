@@ -1,4 +1,5 @@
 ﻿using Payment.Domain.Strategy;
+using Payment.Exceptions;
 
 namespace Payment.Domain
 {
@@ -15,7 +16,7 @@ namespace Payment.Domain
                 return new AccrualBasisStrategy();
             }
 
-            throw new Exception($"tipo inválido {type}");
+            throw new PaymentException($"tipo inválido {type}");
         }
     }
 }
