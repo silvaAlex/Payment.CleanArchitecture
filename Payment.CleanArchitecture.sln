@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payment.Domain", "Payment.Domain\Payment.Domain.csproj", "{92C70F20-2A18-4379-B3CA-00E0DDE7ADCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Exceptions", "Payment.Exceptions\Payment.Exceptions.csproj", "{262BF5A6-669B-4B37-84E3-506E99458446}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payment.Exceptions", "Payment.Exceptions\Payment.Exceptions.csproj", "{262BF5A6-669B-4B37-84E3-506E99458446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Application", "Payment.Application\Payment.Application.csproj", "{ED9FE3A5-C4F0-4701-8E16-88C65AF0AFEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{262BF5A6-669B-4B37-84E3-506E99458446}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{262BF5A6-669B-4B37-84E3-506E99458446}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{262BF5A6-669B-4B37-84E3-506E99458446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9FE3A5-C4F0-4701-8E16-88C65AF0AFEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9FE3A5-C4F0-4701-8E16-88C65AF0AFEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9FE3A5-C4F0-4701-8E16-88C65AF0AFEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9FE3A5-C4F0-4701-8E16-88C65AF0AFEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

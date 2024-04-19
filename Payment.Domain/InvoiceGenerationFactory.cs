@@ -11,7 +11,7 @@ namespace Payment.Domain
             {
                 return new CashBasisStrategy();
             }
-            if (type.Equals("accrual"))
+            if (type.Equals("accrual", StringComparison.InvariantCultureIgnoreCase))
             {
                 return new AccrualBasisStrategy();
             }
